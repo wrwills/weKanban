@@ -7,12 +7,11 @@ final class WeKanbanProjectDefinition(info: ProjectInfo) extends DefaultWebProje
   val jettyServer = "org.eclipse.jetty" % "jetty-server" % "7.0.0.RC2"
   
   val scalaToolsSnapshots = "Scala Tools Snapshots" at "http://scala-tools.org/repo-snapshots/"
-  val scalazCore = "com.googlecode.scalaz" %% "scalaz-core" % "5.0-SNAPSHOT"
-  val scalazHttp = "com.googlecode.scalaz" %% "scalaz-http" % "5.0-SNAPSHOT"
+  val scalazCore = "com.googlecode.scalaz" %% "scalaz-core" % "5.1-SNAPSHOT"
+  val scalazHttp = "com.googlecode.scalaz" %% "scalaz-http" % "5.1-SNAPSHOT"
   
   val h2 = "com.h2database" % "h2" % "1.2.137"
-  val squeryl = "org.squeryl" % "squeryl_2.8.0.Beta1" % "0.9.4beta2"
-    
+  val squeryl = "org.squeryl" % "squeryl_2.8.0" % "0.9.4-RC2"    
   //adding h2-start and h2-stop actions
   import Process._  
   var h2Process: Process = _  

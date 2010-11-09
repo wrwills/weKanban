@@ -10,6 +10,7 @@ How to Start?
 
 * Download all the dependencies using "sbt update"
 * Start the H2 database server using "sbt h2-start" action
+* Initialize the weKanban schema using "sbt run" action
 * Start the Jetty server using "sbt jetty" action
 * And launch the app by going to http://localhost:8080/kanban/board
  
